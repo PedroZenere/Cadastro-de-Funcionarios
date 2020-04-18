@@ -17,7 +17,6 @@ Abra o terminal na pasta "Backend":
 -Digite no terminal:
 npm install
 
-- Após os módulos serem instalados, digite:
 - Vá para a seção "CONFIGURAÇÃO DO BANCO"
 
 - Após conseguir executar a configuração do banco, faça:
