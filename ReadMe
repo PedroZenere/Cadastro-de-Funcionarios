@@ -22,11 +22,15 @@ npm install
 - Após conseguir executar a configuração do banco, faça:
 - No terminal, digite:
 
+knex migrate:latest 
+
+(caso nao funcione este comando, tente instalar novamente o knex, com este comando: 
+sudo npm install knex -g), e execute novamente:
+
 knex migrate:latest
 
 - Após finalizada as migrations execute no terminal:
 
--Após criar as tabelas, digite:
 npm start
 
 -Isso irá startar o servidor
@@ -54,10 +58,11 @@ Caso queira alterar para executar em sua máquina:
 - psql -d postgres
 - Após entrar no postgres, digite:
 - CREATE DATABASE db
+
 - Após a criação do database, siga os proximos passos.
 
 - Abra a pasta "Backend"
 - Abra o arquivo "knexfile.js"
-- Faça as alterações nas propriedades: port, user, password
+- Faça as alterações nas propriedades: port, user, password (Com as suas configurações do seu banco)
 
 
