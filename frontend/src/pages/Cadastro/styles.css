@@ -1,0 +1,39 @@
+.newcadastro-container{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newcadastro-container .content{
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.newcadastro-container .content h1{
+    font-size: 32px;
+}
+
+
+.newcadastro-container .content form{
+    width: 100%;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newcadastro-container .content form input{
+    margin-top: 8px;
+}
