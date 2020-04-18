@@ -12,34 +12,53 @@ Para instalar o node, digite no terminal:
 Para instalar o npm, digite no terminal:
 npm install npm@latest -g
 
-
+1 -------------------------  CONFIGURAÇÃO DO BACKEND -----------------------------------
 Abra o terminal na pasta "Backend":
 -Digite no terminal:
-1. npm install
+npm install
 
 - Após os módulos serem instalados, digite:
+- Vá para a seção "CONFIGURAÇÃO DO BANCO"
 
-2. knex migrate: latest
+- Após conseguir executar a configuração do banco, faça:
+- No terminal, digite:
+
+knex migrate:latest
+
+- Após finalizada as migrations execute no terminal:
 
 -Após criar as tabelas, digite:
-
-3. npm start
+npm start
 
 -Isso irá startar o servidor
 
+2 -------------------------  CONFIGURAÇÃO DO FRONTEND -----------------------------------
 Após isso, abra outro terminal na pasta "Frontend":
 -Digite no terminal:
-1. npm install
+npm install
 
-- Após os módulos serem instalados, digite:
-2. npm start
+- Depois, digite:
+npm start
 
 -Isso irá startar o frontend da aplicação
 
-
+---------------------------   CONFIGURAÇÃO DO BANCO --------------------------------------------------
 - A configuração do Postgres:
 -Usuário: postgres
 -Senha: 123456
--Porta: 5432 
+-Porta: 5432
+
+Caso queira alterar para executar em sua máquina:
+- É necessário criar um banco local em sua máquina, para isso tenha o postgreSql instalado
+
+- Caso ja tenha,no terminal digite:
+- psql -d postgres
+- Após entrar no postgres, digite:
+- CREATE DATABASE db
+- Após a criação do database, siga os proximos passos.
+
+- Abra a pasta "Backend"
+- Abra o arquivo "knexfile.js"
+- Faça as alterações nas propriedades: port, user, password
 
 
