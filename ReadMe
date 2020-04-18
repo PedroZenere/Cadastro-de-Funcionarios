@@ -45,7 +45,7 @@ npm start
 
 -Isso irá startar o frontend da aplicação
 
----------------------------   CONFIGURAÇÃO DO BANCO --------------------------------------------------
+3 ---------------------------   CONFIGURAÇÃO DO BANCO --------------------------------------------------
 - A configuração do Postgres:
 -Usuário: postgres
 -Senha: 123456
