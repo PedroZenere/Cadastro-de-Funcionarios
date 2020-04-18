@@ -1,0 +1,21 @@
+Para executar o projeto siga as instruções:
+
+Abra o terminal na pasta "Backend":
+-Digite no terminal: 
+npm start
+
+-Isso irá startar o servidor
+
+Após isso, abra outro terminal na pasta "Frontend":
+-Digite no terminal:
+npm start
+
+-Isso irá startar o frontend da aplicação
+
+
+- A configuração do Postgres:
+-Usuário: postgres
+-Senha: 123456
+-Porta: 5432 
+
+
