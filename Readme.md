@@ -5,71 +5,71 @@
 É necessário ter instaldo em sua máquina o node e o "yarn" ou "npm".
 
 Caso não tenha, siga as instruções (os passos a seguir são para máquinas que possuem SO Linux):
-Para instalar o node, digite no terminal:
+- Para instalar o node, digite no terminal:
 
     curl -sL https://deb.nodesource.com/setup_10.x
     
- Depois:
+ - Depois:
     
     sudo apt install nodejs
 
 
-Para instalar o npm, digite no terminal:
+- Para instalar o npm, digite no terminal:
 
     npm install npm@latest -g
 
 ### 1. CONFIGURAÇÃO DO BACKEND
 
-Abra o terminal na pasta "Backend":
-Digite no terminal:
+Abra o terminal na pasta "Backend".
+- Digite no terminal:
 
     npm install
 
-Vá para a seção CONFIGURAÇÃO DO BANCO
+- Vá para a seção CONFIGURAÇÃO DO BANCO
 
 Após conseguir executar a configuração do banco, faça:
-No terminal, digite:
+- No terminal, digite:
 
     knex migrate:latest 
 
-Caso nao funcione este comando, tente instalar novamente o knex, com este comando:
+- Caso nao funcione este comando, tente instalar novamente o knex, com este comando:
 
     sudo npm install knex -g
 
-Execute novamente:
+- Execute novamente:
 
     knex migrate:latest
 
-Após finalizada as migrations execute no terminal:
+- Após finalizada as migrations execute no terminal:
 
     npm start
 
 Isso irá startar o servidor!
 
 ### 2. CONFIGURAÇÃO DO FRONTEND
-Após isso, abra outro terminal na pasta "Frontend":
-Digite no terminal:
+Após isso, abra outro terminal na pasta "Frontend".
+- Digite no terminal:
 
     npm install
 
-Depois, digite:
+- Depois, digite:
 
     npm start
 
-Isso irá startar o frontend da aplicação!
+- Isso irá startar o frontend da aplicação!
 
 ### 3. CONFIGURAÇÃO DO BANCO
-É necessário criar um banco local em sua máquina, para isso tenha o postgreSql instalado
+- É necessário criar um banco local em sua máquina, para isso tenha o postgreSql instalado
 
-Caso ja tenha,no terminal digite:
+- Caso ja tenha,no terminal digite:
 
     psql -d postgres
 
-Após entrar no postgres, digite:
+- Após entrar no postgres, digite:
 
     CREATE DATABASE db
 
-Após a criação do database, siga os proximos passos:
+- Após a criação do database, siga os proximos passos:
 
 - Abra a pasta "Backend"
 - Abra o arquivo "knexfile.js"
