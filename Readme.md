@@ -4,7 +4,7 @@
 
 É necessário ter instaldo em sua máquina o node e o "yarn" ou "npm".
 
-Caso não tenha, siga as instruções(os passos a seguir são para máquinas que possuem SO Linux):
+Caso não tenha, siga as instruções (os passos a seguir são para máquinas que possuem SO Linux):
 Para instalar o node, digite no terminal:
 
     curl -sL https://deb.nodesource.com/setup_10.x
