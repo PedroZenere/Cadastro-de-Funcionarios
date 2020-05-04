@@ -5,6 +5,7 @@
 É necessário ter instaldo em sua máquina o node e o "yarn" ou "npm".
 
 Caso não tenha, siga as instruções (os passos a seguir são para máquinas que possuem SO Linux):
+
 Para instalar o node, digite no terminal:
 
     curl -sL https://deb.nodesource.com/setup_10.x
@@ -21,6 +22,7 @@ Para instalar o npm, digite no terminal:
 ### 1. CONFIGURAÇÃO DO BACKEND
 
 Abra o terminal na pasta "Backend".
+
 Digite no terminal:
 
     npm install
@@ -28,6 +30,7 @@ Digite no terminal:
 Vá para a seção CONFIGURAÇÃO DO BANCO
 
 Após conseguir executar a configuração do banco, faça:
+
 No terminal, digite:
 
     knex migrate:latest 
@@ -48,6 +51,7 @@ Isso irá startar o servidor!
 
 ### 2. CONFIGURAÇÃO DO FRONTEND
 Após isso, abra outro terminal na pasta "Frontend".
+
 Digite no terminal:
 
     npm install
