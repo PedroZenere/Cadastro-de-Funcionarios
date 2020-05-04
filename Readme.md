@@ -25,18 +25,18 @@ Digite no terminal:
 
     npm install
 
-Vá para a seção "CONFIGURAÇÃO DO BANCO"
+Vá para a seção CONFIGURAÇÃO DO BANCO
 
 Após conseguir executar a configuração do banco, faça:
 No terminal, digite:
 
     knex migrate:latest 
 
-caso nao funcione este comando, tente instalar novamente o knex, com este comando:
+Caso nao funcione este comando, tente instalar novamente o knex, com este comando:
 
     sudo npm install knex -g
 
-execute novamente:
+Execute novamente:
 
     knex migrate:latest
 
@@ -44,7 +44,7 @@ Após finalizada as migrations execute no terminal:
 
     npm start
 
-Isso irá startar o servidor
+Isso irá startar o servidor!
 
 ### 2. CONFIGURAÇÃO DO FRONTEND
 Após isso, abra outro terminal na pasta "Frontend":
@@ -56,7 +56,7 @@ Depois, digite:
 
     npm start
 
-Isso irá startar o frontend da aplicação
+Isso irá startar o frontend da aplicação!
 
 ### 3. CONFIGURAÇÃO DO BANCO
 É necessário criar um banco local em sua máquina, para isso tenha o postgreSql instalado
@@ -71,8 +71,8 @@ Após entrar no postgres, digite:
 
 Após a criação do database, siga os proximos passos:
 
-Abra a pasta "Backend"
-Abra o arquivo "knexfile.js"
-Faça as alterações nas propriedades: port, user, password (Com as suas configurações do seu banco)
+- Abra a pasta "Backend"
+- Abra o arquivo "knexfile.js"
+- Faça as alterações nas propriedades: port, user, password (Com as suas configurações do seu banco)
 
 
