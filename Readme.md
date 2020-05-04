@@ -1,14 +1,15 @@
 # CRUD para Cadastro de Funcionários 
 
-Para executar o projeto siga as instruções:
+## Para executar o projeto siga as instruções:
 
 É necessário ter instaldo em sua máquina o node e o "yarn" ou "npm".
 
 Caso não tenha, siga as instruções(os passos a seguir são para máquina que possuem SO Linux):
 Para instalar o node, digite no terminal:
-1. curl -sL https://deb.nodesource.com/setup_10.x
 
-2. sudo apt install nodejs
+``` curl -sL https://deb.nodesource.com/setup_10.x ```
+
+``` sudo apt install nodejs```
 
 
 Para instalar o npm, digite no terminal:
