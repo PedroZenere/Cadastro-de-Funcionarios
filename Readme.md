@@ -9,6 +9,7 @@ Para instalar o node, digite no terminal:
 
     curl -sL https://deb.nodesource.com/setup_10.x
     
+ Depois:
     
     sudo apt install nodejs
 
